@@ -97,7 +97,7 @@ ingreso_total = {
  (ventas[4]["cantidad"] * productos[4]["precio_final"]) 
 }
 
-print(f"El ingreso total de {tienda_info[0]} fue de {ingreso_total} ")
+print(f"El ingreso total de {tienda_info[0]} fue de ingreso_total ")
 
 
 
