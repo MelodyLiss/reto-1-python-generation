@@ -72,10 +72,10 @@ Ejemplo para la venta 101:
 print("==========================================================================")
 
 print(f" Venta {ventas[0]["venta_id"]} : {ventas[0]["cliente"]} compró {ventas[0]["cantidad"]} {productos[0]["nombre"]} y pagó {ventas[0]["cantidad"] * productos[0]["precio_final"]} ")
-print(f" Venta {ventas[1]["venta_id"]} : {ventas[1]["cliente"]} compró {ventas[1]["cantidad"]} {productos[1]["nombre"]} y pagó {ventas[2]["cantidad"] * productos[1]["precio_final"]} ")
-print(f" Venta {ventas[2]["venta_id"]} : {ventas[2]["cliente"]} compró {ventas[2]["cantidad"]} {productos[3]["nombre"]} y pagó {ventas[1]["cantidad"] * productos[3]["precio_final"]} ")
-print(f" Venta {ventas[3]["venta_id"]} : {ventas[3]["cliente"]} compró {ventas[3]["cantidad"]} {productos[1]["nombre"]} y pagó {ventas[1]["cantidad"] * productos[1]["precio_final"]} ")
-print(f" Venta {ventas[4]["venta_id"]} : {ventas[4]["cliente"]} compró {ventas[4]["cantidad"]} {productos[4]["nombre"]} y pagó {ventas[3]["cantidad"] * productos[4]["precio_final"]} ")
+print(f" Venta {ventas[1]["venta_id"]} : {ventas[1]["cliente"]} compró {ventas[1]["cantidad"]} {productos[1]["nombre"]} y pagó {ventas[1]["cantidad"] * productos[1]["precio_final"]} ")
+print(f" Venta {ventas[2]["venta_id"]} : {ventas[2]["cliente"]} compró {ventas[2]["cantidad"]} {productos[3]["nombre"]} y pagó {ventas[2]["cantidad"] * productos[3]["precio_final"]} ")
+print(f" Venta {ventas[3]["venta_id"]} : {ventas[3]["cliente"]} compró {ventas[3]["cantidad"]} {productos[1]["nombre"]} y pagó {ventas[3]["cantidad"] * productos[1]["precio_final"]} ")
+print(f" Venta {ventas[4]["venta_id"]} : {ventas[4]["cliente"]} compró {ventas[4]["cantidad"]} {productos[4]["nombre"]} y pagó {ventas[4]["cantidad"] * productos[4]["precio_final"]} ")
 
 
 
